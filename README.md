@@ -7,6 +7,12 @@ For more information on jbang, see:
 - [Installation](https://www.jbang.dev/documentation/guide/latest/installation.html)
 - [Usage](https://www.jbang.dev/documentation/guide/latest/usage.html)
 
+The quickest way to set it up is:
+
+```
+curl -Ls https://sh.jbang.dev | bash -s - app setup
+```
+
 # How to use the example
 
 In a shell, type
