@@ -6,6 +6,7 @@ import static org.jooq.impl.DSL.*;
 import static com.example.db.Tables.*;
 import org.jooq.*;
 import java.io.*;
+import java.io.File;
 import java.util.*;
 import com.example.db.tables.records.*;
 
