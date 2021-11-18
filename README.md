@@ -34,3 +34,9 @@ If you prefer working with a pre-existing database, just edit the `db.xml` file 
 ```
 jbang --deps org.postgresql:postgresql:RELEASE codegen@jooq db.xml
 ```
+
+To override the jOOQ version from the default `RELEASE` to a specific version, use
+
+```
+jbang -Djooq.version=<version> codegen@jooq db.xml
+```
